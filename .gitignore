@@ -1,0 +1,28 @@
+# Encrypted files
+*.encrypted
+
+# Mac
+.DS_Store
+
+# Misc
+tmp
+log
+out
+setenv.sh
+initialization-actions
+*.new.*
+
+# Terraform Local .terraform directories
+**/.terraform/*
+
+# Terraform .tfstate files
+*.tfstate
+*.tfstate.*
+
+# Terraform / GraphViz files
+*.svg
+*.dot
+
+# Vim
+*.swp
+*.swo
