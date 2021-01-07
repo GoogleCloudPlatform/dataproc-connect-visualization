@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-./0.usage.sh '5cac' 'Setting up authorization' ${0}
+./0.usage.sh 'setting_up_authorization' 'Setting up authorization' ${0}
 exit
 
 # ---

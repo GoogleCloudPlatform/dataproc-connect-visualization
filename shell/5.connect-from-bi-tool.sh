@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-./0.usage.sh 'ebf7' 'Connecting from a BI Tool' ${0}
+./0.usage.sh 'connecting_from_a_bi_tool' 'Connecting from a BI Tool' ${0}
 exit
 
 # ---

@@ -19,7 +19,7 @@
 echo '------------'
 echo 'Usage:'
 echo '1. Open the hands-on tutorial:'
-echo "   https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2#${1}"
+echo "   https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud#${1}"
 echo "2. Make sure you are in section \"${2}\""
 echo '3. Open this file in an editor and use the snippets to follow the step-by-step instructions:'
 echo "   vi ${3} "

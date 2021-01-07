@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-./0.usage.sh '5919' 'Creating the backend cluster' ${0}
+./0.usage.sh 'creating_the_backend_cluster' 'Creating the backend cluster' ${0}
 exit
 
 # ---

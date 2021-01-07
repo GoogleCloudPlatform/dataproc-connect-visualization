@@ -3,14 +3,14 @@
 <br />
 <p align="center">
   <h2 align="center">Connecting your Visualization Software to Hadoop on Google Cloud</h2>
-  <img src="https://storage.googleapis.com/gweb-cloudblog-publish/original_images/cloud_dataproc.png" alt="Dataproc Logo">
+  <img src="../images/cloud_dataproc.png" alt="Dataproc Logo">
 
   <p align="center">
     Companion Terraform configuration to set up your infrastructure automatically
     <br />
-    <a href="https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-64b55f536fab">Architecture</a>
+    <a href="https://cloud.google.com/solutions/migration/hadoop/architecture-for-connecting-visualization-software-to-hadoop-on-google-cloud">Architecture</a>
     ·
-    <a href="https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2">Hands-on</a>
+    <a href="https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud">Hands-on</a>
     ·
     <a href="../README.md">Repo home</a>
     ·
@@ -190,6 +190,6 @@ Also, take a note of the Ranger admin UI password from [variables.tf](variables.
 
 [service-account]: https://docs.google.com/document/d/1rYxu2xBZsDgNo_-Ex4jb_3YxwL6cWab8QzFiY33_qWA/edit#
 
-[create-ranger-policies-section]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2#880b
+[create-ranger-policies-section]: https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud#creating_ranger_policies
 
 [main-readme]: ../README.md

@@ -1,18 +1,18 @@
 <br />
 <p align="center">
   <h2 align="center">Connecting your Visualization Software to Hadoop on Google Cloud</h2>
-  <img src="https://storage.googleapis.com/gweb-cloudblog-publish/original_images/cloud_dataproc.png" alt="Dataproc Logo">
+  <img src="../images/cloud_dataproc.png" alt="Dataproc Logo">
 
   <p align="center">
     Companion scripts to set up your infrastructure step-by-step
     <br />
-    <a href="https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-64b55f536fab">Architecture</a>
+    <a href="https://cloud.google.com/solutions/migration/hadoop/architecture-for-connecting-visualization-software-to-hadoop-on-google-cloud">Architecture</a>
     ·
-    <a href="https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2">Hands-on</a>
-    ·
-    <a href="../README.md">Repo home</a>
+    <a href="https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud">Hands-on</a>
     ·
     <a href="../terraform/README.md">Terraform configuration</a>
+    ·
+    <a href="../README.md">Repo home</a>
   </p>
 </p>
 
@@ -31,10 +31,10 @@ Follow the instructions in the tutorial, and use the snippets in each file to fo
 
 
 <!-- LINKS: https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[second-part]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2
+[second-part]: https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud
 
-[before-you-begin]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2#3390
-[create-backend-cluster]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2#5919
-[create-proxy-cluster]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2#538f
-[set-up-authorization]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2#5cac
-[connect-from-bi-tool]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2#ebf7
+[before-you-begin]: https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud#before-you-begin
+[create-backend-cluster]: https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud#creating_the_backend_cluster
+[create-proxy-cluster]: https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud#creating_the_proxy_cluster
+[set-up-authorization]: https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud#setting_up_authorization
+[connect-from-bi-tool]: https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud#connecting_from_a_bi_tool

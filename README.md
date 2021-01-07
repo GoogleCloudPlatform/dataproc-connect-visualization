@@ -1,15 +1,15 @@
 <br />
 <p align="center">
   <h2 align="center">Connecting your Visualization Software to Hadoop on Google Cloud</h2>
-  <img src="https://storage.googleapis.com/gweb-cloudblog-publish/original_images/cloud_dataproc.png" alt="Dataproc Logo">
+  <img src="images/cloud_dataproc.png" alt="Dataproc Logo">
 
 
   <p align="center">
     Companion configuration and scripts to set up your infrastructure
     <br />
-    <a href="https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-64b55f536fab">Architecture</a>
+    <a href="https://cloud.google.com/solutions/migration/hadoop/architecture-for-connecting-visualization-software-to-hadoop-on-google-cloud">Architecture</a>
     ·
-    <a href="https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2">Hands-on</a>
+    <a href="https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud">Hands-on</a>
     ·
     <a href="terraform/README.md">Terraform configuration</a>
     ·
@@ -32,8 +32,8 @@
 This repository is a companion to a pair of articles that help you build an end-to-end solution to enable data analysts secure access to data using business intelligence (BI) tools. The solution uses familiar open source tools from the Hadoop ecosystem and Tableau as the BI tool.
 
 <p align="center">
-  <a href="https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-64b55f536fab">
-    <img src="https://miro.medium.com/max/1392/1*TuEsmhuJlgIfF1Y9-v78hg.png" />
+  <a href="https://cloud.google.com/solutions/migration/hadoop/architecture-for-connecting-visualization-software-to-hadoop-on-google-cloud">
+    <img src="images/architecture.png" />
   </a>
 </p>
 
@@ -88,8 +88,8 @@ The configuration and scripts in this repository use billable components of Goog
 * [Code of conduct][code-of-conduct]
 
 <!-- LINKS: https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[first-part]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-64b55f536fab
-[second-part]: https://medium.com/google-cloud/connecting-your-visualization-software-to-hadoop-on-google-cloud-f50279d83f2
+[first-part]: https://cloud.google.com/solutions/migration/hadoop/architecture-for-connecting-visualization-software-to-hadoop-on-google-cloud
+[second-part]: https://cloud.google.com/solutions/migration/hadoop/connecting-visualization-software-to-hadoop-on-google-cloud
 
 [dataproc-pricing]: https://cloud.google.com/dataproc/pricing?hl=bg
 [cloud-sql-pricing]: https://cloud.google.com/sql/pricing

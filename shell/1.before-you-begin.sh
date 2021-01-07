@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-./0.usage.sh '3390' 'Before you begin' ${0}
+./0.usage.sh 'before-you-begin' 'Before you begin' ${0}
 exit
 
 # --- 

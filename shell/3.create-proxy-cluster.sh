@@ -14,7 +14,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-./0.usage.sh '538f' 'Creating the proxy cluster' ${0}
+./0.usage.sh 'creating_the_proxy_cluster' 'Creating the proxy cluster' ${0}
 exit
 
 # ---
