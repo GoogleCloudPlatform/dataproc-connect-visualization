@@ -54,7 +54,7 @@ sudo vi /etc/ranger/usersync/conf/ranger-ugsync-site.xml
 </property>
 
 <property>
-  <name>ranger.usersync.user.searchbase</name>
+  <name>ranger.usersync.ldap.user.searchbase</name>
   <value>dc=hadoop,dc=apache,dc=org</value>
 </property>
 
