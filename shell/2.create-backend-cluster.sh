@@ -84,12 +84,12 @@ gcloud kms encrypt \
 
 # Create a Cloud Storage bucket to store encrypted password files
 # [START snippet_120]
-gsutil mb -l ${REGION} gs://${PROJECT_ID}-ranger
+gcloud storage buckets create gs://${PROJECT_ID}-ranger --location=${REGION}
 # [END snippet_120]
 
 # Upload the encrypted password files to the Cloud Storage bucket.
 # [START snippet_130]
-gsutil -m cp *.encrypted gs://${PROJECT_ID}-ranger
+gcloud storage cp *.encrypted gs://${PROJECT_ID}-ranger
 # [END snippet_130]
 
 # ---
@@ -97,7 +97,7 @@ gsutil -m cp *.encrypted gs://${PROJECT_ID}-ranger
 
 # Create a Cloud Storage bucket to store the Apache Solr audit logs
 # [START snippet_140]
-gsutil mb -l ${REGION} gs://${PROJECT_ID}-solr
+gcloud storage buckets create gs://${PROJECT_ID}-solr --location=${REGION}
 # [END snippet_140]
 
 # Export all the variables required to create the cluster
@@ -148,12 +148,12 @@ hive:hive.server2.transport.mode=http"
 
 # Create a Cloud Storage bucket to store a sample Apache Parquet file
 # [START snippet_170]
-gsutil mb -l ${REGION} gs://${PROJECT_ID}-hive
+gcloud storage buckets create gs://${PROJECT_ID}-hive --location=${REGION}
 # [END snippet_170]
 
 # Copy a publicly available sample Parquet file into your bucke
 # [START snippet_180]
-gsutil cp gs://hive-solution/part-00000.parquet \
+gcloud storage cp gs://hive-solution/part-00000.parquet \
   gs://${PROJECT_ID}-hive/dataset/transactions/part-00000.parquet
 # [END snippet_180]
 

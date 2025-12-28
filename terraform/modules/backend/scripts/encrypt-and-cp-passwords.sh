@@ -48,5 +48,5 @@ gcloud kms encrypt \
   --plaintext-file=- \
   --ciphertext-file=mysql-root-password.encrypted
 
-gsutil -m cp *.encrypted gs://${PROJECT_ID}-ranger
+gcloud storage cp *.encrypted gs://${PROJECT_ID}-ranger
 rm *.encrypted

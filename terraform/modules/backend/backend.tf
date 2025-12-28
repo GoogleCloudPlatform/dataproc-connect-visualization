@@ -98,7 +98,7 @@ resource "google_storage_bucket" "hive_bucket" {
 
   provisioner "local-exec" {
     // Copy cluster init action script to load data into Hive
-    command = "gsutil cp ${path.module}/scripts/load-data-into-hive.sh gs://${google_storage_bucket.hive_bucket.name}"
+    command = "gcloud storage cp ${path.module}/scripts/load-data-into-hive.sh gs://${google_storage_bucket.hive_bucket.name}"
   }
 }
 

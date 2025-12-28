@@ -71,12 +71,12 @@ certificate_hostname: localhost
 
 # Create a Cloud Storage bucket to provide the configurations
 # [START snippet_330]
-gsutil mb -l ${REGION} gs://${PROJECT_ID}-knox
+gcloud storage buckets create gs://${PROJECT_ID}-knox --location=${REGION}
 # [END snippet_330]
 
 # Copy all the files from the Knox initialization action folder into the bucket
 # [START snippet_340]
-gsutil -m cp -r ${KNOX_INIT_FOLDER}/* gs://${PROJECT_ID}-knox
+gcloud storage cp --recursive ${KNOX_INIT_FOLDER}/* gs://${PROJECT_ID}-knox
 # [END snippet_340]
 
 # Export all the variables required to create the cluster

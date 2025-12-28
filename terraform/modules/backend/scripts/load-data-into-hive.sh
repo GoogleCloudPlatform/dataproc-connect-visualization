@@ -28,7 +28,7 @@ if [[ "${ROLE}" == 'Master' ]]; then
   readonly PROJECT_ID="$(/usr/share/google/get_metadata_value ../project/project-id)"
 
   echo "Copy a publicly available sample Parquet file into bucket gs://${PROJECT_ID}-hive"
-  gsutil cp gs://hive-solution/part-00000.parquet \
+  gcloud storage cp gs://hive-solution/part-00000.parquet \
     gs://${PROJECT_ID}-hive/dataset/transactions/part-00000.parquet
 
   echo 'Load transaction data into Hive'

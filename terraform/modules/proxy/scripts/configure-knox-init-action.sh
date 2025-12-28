@@ -64,7 +64,7 @@ echo 'Configuring Knox certificate'
 # certificate_hostname: localhost
 sed -i'.bak' -e 's/_hostname: HOSTNAME/_hostname: localhost/' "${KNOX_DIR}/knox-config.yaml"
 
-gsutil -m cp -r "${KNOX_DIR}/*" gs://${PROJECT_ID}-knox
+gcloud storage cp --recursive "${KNOX_DIR}/*" gs://${PROJECT_ID}-knox
 
 # No side effects
 rm -fr initialization-actions
