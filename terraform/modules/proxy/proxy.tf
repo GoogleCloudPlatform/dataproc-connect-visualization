@@ -32,7 +32,7 @@ resource "google_storage_bucket" "knox_bucket" {
   }
 
   provisioner "local-exec" {
-    command = "gsutil cp ${path.module}/scripts/add-sample-ldap-user.sh gs://${google_storage_bucket.knox_bucket.name}"
+    command = "gcloud storage cp ${path.module}/scripts/add-sample-ldap-user.sh gs://${google_storage_bucket.knox_bucket.name}"
   }
 }
 
